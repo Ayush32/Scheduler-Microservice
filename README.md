@@ -3,8 +3,8 @@
 * Download and extract the zip file by
 * git clone https://github.com/Ayush32/Scheduler-Microservice.git
 * open Command Prompt - Install Virtualenv using -> pip install virtualenv
-* Open the folder inside VScode
-* Open terminal and setup virtual enviroment by following steps
+* Open the Scheduler-Microservice directory inside VScode
+* Open terminal in vscode and setup virtual enviroment by following steps
 
               virtualenv venv
               Go to scripts directory then activate the virtual environment - venv\Scripts\activate
@@ -13,7 +13,7 @@
 * Install django, djangorestframework, psycopg2 by following command, copy and paste
 
               pip install Django==5.1 djangorestframework==3.15.2 APScheduler==3.10.4
-* Now do run the following command to save your model into the database.
+* Now run the following command to save your model into the database.
 
               Go to the scheduler_service directory
               cd scheduler_service
